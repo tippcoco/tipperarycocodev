@@ -1,0 +1,116 @@
+#dummybodyid{
+background: #f0f0f0;
+padding-top: 0px;
+}
+
+.breadcrumb { 
+background-color: #2b2b2b;
+}
+
+.breadcrumb a { 
+color: white;
+}
+
+.footer {
+margin-top: 45px;
+padding: 35px 40px 40px 36px;
+border-top: 1px solid #e5e5e5;
+background-color: #2b2b2b;
+width: 100%;
+color: white;
+}
+
+ #footer1, #footer2, #footer3, #footer4 {
+  float: left;
+  width: 25%;
+}
+
+
+.footer a {
+display: block;
+color: white;
+}
+
+.group-right {
+float: right;
+width: 50%;
+vertical-align: top;
+background-color: #B8F16C;
+line-height:157%;
+}
+
+.field-name-field-section-header{
+font-size: 23px;
+padding-top: 3px;
+padding-bottom: 12px;
+}
+
+.section-header-title{
+background-color: #78BD52;
+margin-top: 0px;
+padding-top: 4px;
+padding-left: 6px;
+padding-bottom: 4px;
+border-bottom: 1px solid #3B3F40;
+}
+
+.rounded-corner .t-edge,
+.rounded-corner .b-edge,
+.rounded-corner .l-edge,
+.rounded-corner .r-edge {
+background-image: none;
+}
+
+.rounded-corner .wrap-corner .l, 
+.rounded-corner .wrap-corner .r {
+background-image: none;
+}
+
+.breadcrumb {
+-webkit-border-radius: 0px;
+border-radius: 0px;
+}
+
+.cashelbginner {
+background-color: transparent;
+background-image: url("http://www.tipperarycocostage.ie/sites/default/files/styles/large/public/img/bgimage_inner.jpg");
+background-repeat: no-repeat;
+background-position: top left;
+margin-top: 40px;
+width: 100%;
+border: 0px solid;
+}
+
+.crest{
+padding: 40px;
+}
+
+.pane-title{
+background-color: #78BD52;
+border-bottom: 1px solid #3B3F40;
+font-size: 23px;
+padding-left: 6px;
+}
+
+h2{
+font-size: 18px;
+}
+
+.ds-2col-stacked{
+background-color: #B8F16C;
+}
+
+.views-row-odd {
+background-colcor: #B8F16C;
+}
+
+
+
+
+
+
+
+
+
+
+
