@@ -105,7 +105,7 @@
 
   </div>
 </div>
-<div class="container"><footer class="footer container">
+<footer class="footer container">
   <?php print render($page['footer']); ?>
   <div id="footer1">
           <?php print render($page['footer1']); ?>
@@ -119,4 +119,4 @@
         <div id="footer4">
           <?php print render($page['footer4']); ?>
         </div>
-</footer></div>
+</footer>

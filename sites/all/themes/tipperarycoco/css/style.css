@@ -17,7 +17,7 @@ padding-top: 0px;
 }
 
 .breadcrumb { 
-background-color: #2b2b2b;
+background-color: #434344;
 padding: 8px 15px;
 margin: 0 0 0px;
 list-style: none;
@@ -29,28 +29,27 @@ border-radius: 4px;
 .breadcrumb a { 
 color: white;
 }
-.breadcrumb li {
-list-style-image: url('../img/sub_menu.png');
 
-.footer {
-margin-top: 45px;
-padding: 35px 40px 40px 36px;
-border-top: 1px solid #e5e5e5;
+.footerall {
+margin-top: 0px;
+padding: 30px 30px 30px 30px;
+border-top: 0px solid #e5e5e5;
 background-color: #2b2b2b;
-width: 100%;
 color: white;
 }
 
  #footer1, #footer2, #footer3, #footer4 {
-  float: left;
-  width: 25%;
+  width: 20%;
+  display: inline-block;
 }
 
 
-.footer a {
+.footerall a {
 display: block;
 color: white;
 }
+.footerbg {
+background-color: #434344;}
 
 
 .leaf>a:hover {
@@ -98,12 +97,12 @@ padding-right: 8px;
 }
 
 .section-header-title{
-background-color: #9BAAC1;
+background-color: #808080;
 margin-top: 0px;
 padding-top: 4px;
 padding-left: 6px;
 padding-bottom: 4px;
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #434344;
 color: #fff;
 text-transform:uppercase;
 }
@@ -140,11 +139,27 @@ padding: 40px;
 }
 
 .pane-title{
-background-color: #78BD52;
-border-bottom: 1px solid #3B3F40;
-font-size: 23px;
-padding-left: 6px;
+background-color: #ccc;
+border-bottom: 1px solid #434344;
+font-size: 16px;
+text-transform: uppercase;
+padding: 6px;
 }
+
+.pane-news-events h2 {
+padding: 18px 18px 18px 65px;
+font-size: 16px;
+background-image: url("http://www.tipperarycocostage.ie/sites/default/files/styles/large/public/img/newsevents.jpg");
+background-repeat: no-repeat;
+background-position: top left;}
+
+.pane-related-maps h2 {
+padding: 18px 18px 18px 65px;
+font-size: 16px;
+background-image: url("http://www.tipperarycocostage.ie/sites/default/files/styles/large/public/img/mapsicon.jpg");
+background-repeat: no-repeat;
+background-position: top left;}
+
 
 h2{
 font-size: 18px;

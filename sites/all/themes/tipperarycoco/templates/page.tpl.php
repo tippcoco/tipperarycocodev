@@ -105,18 +105,11 @@
 
   </div>
 </div>
-<div class="container"><footer class="footer container">
-  <?php print render($page['footer']); ?>
-  <div id="footer1">
-          <?php print render($page['footer1']); ?>
-        </div>
-        <div id="footer2">
-          <?php print render($page['footer2']); ?>
-        </div>
-        <div id="footer3">
-          <?php print render($page['footer3']); ?>
-        </div>
-        <div id="footer4">
-          <?php print render($page['footer4']); ?>
-        </div>
-</footer></div>
+<div class="row-fluid footerbg">
+<div class="container"><div class="footerall">
+<?php print render($page['footer']); ?>
+<div id="footer1"><?php print render($page['footer1']); ?></div>
+<div id="footer2"><?php print render($page['footer2']); ?></div>
+<div id="footer3"><?php print render($page['footer3']); ?></div>
+<div id="footer4"><?php print render($page['footer4']); ?></div>
+</div></div></div>
