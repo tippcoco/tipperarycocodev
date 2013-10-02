@@ -84,31 +84,60 @@ function bootstrap_theme(&$existing, $type, $theme, $path) {
   );
 }
 
-/**
- * Override theme_breadrumb().
- *
- * Print breadcrumbs as a list, with separators.
- */
-function bootstrap_breadcrumb($variables) {
-  $breadcrumb = $variables['breadcrumb'];
 
-  if (!empty($breadcrumb)) {
-    $breadcrumbs = '<ul class="breadcrumb">';
-    
-    $count = count($breadcrumb) - 1;
-    foreach ($breadcrumb as $key => $value) {
-      if ($count != $key) {
-        $breadcrumbs .= '<li>' . $value . '<span class="divider">/</span></li>';
-      }
-      else{
-        $breadcrumbs .= '<li>' . $value . '</li>';
+
+
+/**
+ * Override theme_breadcrumb().
+ */
+function bootstrap_breadcrumb($breadcrumb) {
+  $links = array();
+  $path = '';
+
+  // Get URL arguments
+  $arguments = explode('/', request_uri());
+
+  // Remove empty values
+  foreach ($arguments as $key => $value) {
+    if (empty($value)) {
+      unset($arguments[$key]);
+    }
+  }
+  $arguments = array_values($arguments);
+
+  // Add 'Home' link
+  $links[] = l(t('Home'), '<front>');
+
+  // Add other links
+  if (!empty($arguments)) {
+    foreach ($arguments as $key => $value) {
+      // Don't make last breadcrumb a link
+      if ($key == (count($arguments) - 1)) {
+        $links[] = drupal_get_title();
+      } else {
+        if (!empty($path)) {
+          $path .= '/'. $value;
+        } else {
+          $path .= $value;
+        }
+        $links[] = l(drupal_ucfirst($value), $path);
       }
     }
-    $breadcrumbs .= '</ul>';
-    
-    return $breadcrumbs;
+  }
+
+  // Set custom breadcrumbs
+  drupal_set_breadcrumb($links);
+
+  // Get custom breadcrumbs
+  $breadcrumb = drupal_get_breadcrumb();
+
+  // Hide breadcrumbs if only 'Home' exists
+  if (count($breadcrumb) > 1) {
+    return '<div class="breadcrumb">'. implode(' &raquo; ', $breadcrumb) .'</div>';
   }
 }
+
+
 
 
 /**

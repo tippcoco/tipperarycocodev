@@ -56,13 +56,15 @@
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
     <?php endif; ?>
-<?php print render($page['header']); ?>
+	<?php print render($page['header']); ?>
     
- </header> <!-- /#header -->
+	</header> <!-- /#header -->
+	
 	<div>
 	<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
 	</div>
-  <div class="row-fluid" style="background-color: #fff; padding-top: 8px">
+
+  <div class="row-fluid" style="background-color: #fff; padding: 12px; width: auto">
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="span3" role="complementary">
@@ -70,7 +72,9 @@
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>  
 
-    <section> 
+	 <div class="span8">
+	 
+    <section>
 	  <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted hero-unit"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>
@@ -92,15 +96,20 @@
       <?php endif; ?>
       <?php print render($page['content']); ?>
 	 </section>	
+	 
+	 </div>
+	 <div class="span4 pull-right">
 	
     <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="span3" role="complementary">
+      <aside role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
+	
+	
 	</div>
-	</div>
-	</section>	  
+
+	 
 	
 
   </div>
