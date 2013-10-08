@@ -1,6 +1,6 @@
 <header id="navbar" role="banner" class="navbar navbar-fixed-top">
   <div class="navbar-inner">
-    <div class="container">
+    <div class="container-fluid">
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
@@ -72,7 +72,7 @@
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>  
 
-	 <div class="span8">
+	 <div class="span6">
 	 
     <section>
 	  <?php if (!empty($page['highlighted'])): ?>
@@ -94,11 +94,55 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
-      <?php print render($page['content']); ?>
+	  <div class="span12">
+	  <div class ="span6">
+	  <div class="applyheader">
+	  <img src="/sites/default/files/img/appphoto.jpg">
+	  </div>
+	  <div class="arrow_box">
+	  <img src="/sites/default/files/img/check.png">
+	  Apply For It
+	  </div>
+	  <?php print render($page['frontcontent1']); ?>
+	  </div>
+	  <div class="span6 pull-right">
+	  <div class="payheader">
+	  <img src="/sites/default/files/img/payphoto.jpg">
+	  </div>
+	  <div class="arrow_box1">
+	  <img src="/sites/default/files/img/paycard.png">
+	  Pay For It
+	  </div>
+	  <?php print render($page['frontcontent2']); ?>
+	  </div>
+	  </div>
+	  <div class="span12">
+	  <div class ="span6">
+	  <div class="downloadheader">
+	  <img src="/sites/default/files/img/downloadphoto.jpg">
+	  </div>
+	  <div class="arrow_box2">
+	  <img src="/sites/default/files/img/downloadicon.png">
+	  Download It
+	  </div>
+      <?php print render($page['frontcontent3']); ?>
+	  </div>
+	  <div class="span6 pull-right">
+	  <div class="findheader">
+	  <img src="/sites/default/files/img/findphoto.jpg">
+	  </div>
+	  <div class="arrow_box3">
+	  <img src="/sites/default/files/img/findicon.png">
+	  Find It
+	  </div>
+	  <?php print render($page['frontcontent4']); ?>
+	  </div>
+	  </div>
+	  
 	 </section>	
 	 
 	 </div>
-	 <div class="span4 pull-right">
+	 <div class="span6 pull-right">
 	
     <?php if (!empty($page['sidebar_second'])): ?>
       <aside role="complementary">
