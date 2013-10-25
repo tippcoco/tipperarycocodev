@@ -49,8 +49,10 @@
 </div>
 </div>
 
-
 <div class="main-container container">
+<div>
+	<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
+	</div>
 
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
@@ -60,12 +62,8 @@
     
 	</header> <!-- /#header -->
 	
-	<div>
-	<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-	</div>
-
+	
   <div class="row-fluid" style="background-color: #fff; padding: 12px; width: auto">
-
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="span3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
@@ -114,11 +112,80 @@
 
   </div>
 </div>
-<div class="row-fluid footerbg">
-<div class="container"><div class="footerall">
-<?php print render($page['footer']); ?>
-<div id="footer1"><?php print render($page['footer1']); ?></div>
-<div id="footer2"><?php print render($page['footer2']); ?></div>
-<div id="footer3"><?php print render($page['footer3']); ?></div>
-<div id="footer4"><?php print render($page['footer4']); ?></div>
-</div></div></div>
+
+<div class = "footerbg" >             
+<div class="navbar-bottom footerall">
+<div class ="container footerall"> 
+<div class="row-fluid span12" style="margin-left:0px; margin-bottom:15px">
+<div class="span6">
+<h4>Services:</h4>
+<div class = "span3"> 
+<div id="footer1">   
+<?php print render($page['footer1']); ?>
+</div>  
+</div>  
+<div class = "span3">     
+<div id="footer2">   
+<?php print render($page['footer2']); ?>
+</div>  
+</div> 
+<div class = "span3">     
+<div id="footer2">   
+<?php print render($page['footer2']); ?>
+</div>  
+</div>  
+</div>
+<div class = "span6">
+<div class = "span6">
+<h4>Follow Us:</h4>
+<div class = "span3">
+<div id="footer2">   
+<?php print render($page['footer2']); ?>
+</div>  
+</div>  
+</div>
+<div class = "span6">
+<h4>Related Sites:</h4>
+<div class = "span3">
+<div id="footer2">   
+<?php print render($page['footer2']); ?>
+</div>  
+</div>  
+</div>											
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-bottom footerbg">
+<div class="container address1 footerbg">
+<h4>Tipperary County Council</h4><hr />
+<div class="row fluid">
+<div class="span2 directions">
+<img src="/sites/default/files/img/directions.png"></div>
+<div class="span4">
+<div class="span12">
+County Hall, Clonmel | County Hall, Nenagh
+</div> 
+<div class="span12">
+Telephone (office hours): 067 44500  
+</div> 
+<div class="span12">
+Out of Hours Emergency Number: 1890 923 948
+</div> 
+<div class="span12">
+Email: info@tipperarycoco.ie
+</div> 
+</div> 
+<div class="span3">
+<a href="#">Translate: English/Irish</a>
+<a href="#">Accessibility: Browse Aloud</a>
+<a href="#">Disclaimer</a>
+<a href="#">Webmail & Extranet</a></div>
+<div class="span3">
+<div class="input-append pull-right">  <input id="appendedInputButton" placeholder="Languages" type="text">  <button class="btn" type="button"><span class="caret"></button></div>
+</div>
+</div>
+</div>
+</div>
+</div>

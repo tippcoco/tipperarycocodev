@@ -9,10 +9,12 @@ regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
-regions[frontcontent1]  = 'FrontContent1'
-regions[frontcontent2]  = 'FrontContent2'
-regions[frontcontent3]  = 'FrontContent3'
-regions[frontcontent4]  = 'FrontContent4'
+regions[frontcontent]   = 'Front Page Content'
+regions[slideshow1]  	= 'Slideshow Item 1'
+regions[slideshow2]  	= 'Slideshow Item 2'
+regions[slideshow3]  	= 'Slideshow Item 3'
+regions[slideshow4]  	= 'Slideshow Item 4'
+regions[slideshow5]  	= 'Slideshow Item 5'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
@@ -27,7 +29,7 @@ stylesheets[all][] = css/style.css
 ;**********************************
 ; METHOD 1: Bootstrap Source Files
 ;**********************************
-; 
+
 ;Scripts
 ;scripts[] = 'bootstrap/js/bootstrap-affix.js'
 ;scripts[] = 'bootstrap/js/bootstrap-alert.js'

@@ -64,7 +64,7 @@
 	<?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
 	</div>
 
-  <div class="row-fluid" style="background-color: #fff; padding: 12px; width: auto">
+	<div class="row-fluid" style="background-color: #fff; padding: 12px; width: auto">
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="span3" role="complementary">
@@ -72,7 +72,7 @@
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>  
 
-	 <div class="span6">
+	 <div class="span7">
 	 
     <section>
 	  <?php if (!empty($page['highlighted'])): ?>
@@ -94,55 +94,13 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
-	  <div class="span12">
-	  <div class ="span6">
-	  <div class="applyheader">
-	  <img src="/sites/default/files/img/appphoto.jpg">
-	  </div>
-	  <div class="arrow_box">
-	  <img src="/sites/default/files/img/check.png">
-	  Apply For It
-	  </div>
-	  <?php print render($page['frontcontent1']); ?>
-	  </div>
-	  <div class="span6 pull-right">
-	  <div class="payheader">
-	  <img src="/sites/default/files/img/payphoto.jpg">
-	  </div>
-	  <div class="arrow_box1">
-	  <img src="/sites/default/files/img/paycard.png">
-	  Pay For It
-	  </div>
-	  <?php print render($page['frontcontent2']); ?>
-	  </div>
-	  </div>
-	  <div class="span12">
-	  <div class ="span6">
-	  <div class="downloadheader">
-	  <img src="/sites/default/files/img/downloadphoto.jpg">
-	  </div>
-	  <div class="arrow_box2">
-	  <img src="/sites/default/files/img/downloadicon.png">
-	  Download It
-	  </div>
-      <?php print render($page['frontcontent3']); ?>
-	  </div>
-	  <div class="span6 pull-right">
-	  <div class="findheader">
-	  <img src="/sites/default/files/img/findphoto.jpg">
-	  </div>
-	  <div class="arrow_box3">
-	  <img src="/sites/default/files/img/findicon.png">
-	  Find It
-	  </div>
-	  <?php print render($page['frontcontent4']); ?>
-	  </div>
-	  </div>
+	
+	<?php print render($page['frontcontent']); ?>
 	  
 	 </section>	
 	 
 	 </div>
-	 <div class="span6 pull-right">
+	 <div class="span5 pull-right">
 	
     <?php if (!empty($page['sidebar_second'])): ?>
       <aside role="complementary">
@@ -152,17 +110,88 @@
 	
 	
 	</div>
-
-	 
-	
-
   </div>
 </div>
-<div class="row-fluid footerbg">
-<div class="container"><div class="footerall">
-<?php print render($page['footer']); ?>
-<div id="footer1"><?php print render($page['footer1']); ?></div>
-<div id="footer2"><?php print render($page['footer2']); ?></div>
-<div id="footer3"><?php print render($page['footer3']); ?></div>
-<div id="footer4"><?php print render($page['footer4']); ?></div>
-</div></div></div>
+
+
+<div class = "footerbg" >             
+<div class="navbar-bottom footerall">
+<div class ="container footerall"> 
+<div class="row-fluid span12" style="margin-left:0px; margin-bottom:15px">
+<div class="span6">
+<h4>Services:</h4>
+<div class = "span3"> 
+<div id="footer1">   
+<?php print render($page['footer1']); ?>
+</div>  
+</div>  
+<div class = "span3">     
+<div id="footer2">   
+<?php print render($page['footer2']); ?>
+</div>  
+</div> 
+<div class = "span3">     
+<div id="footer2">   
+<?php print render($page['footer2']); ?>
+</div>  
+</div>  
+</div>
+<div class = "span6">
+<div class = "span6">
+<h4>Follow Us:</h4>
+<div class = "span3">
+<div id="footer2">   
+<?php print render($page['footer2']); ?>
+</div>  
+</div>  
+</div>
+<div class = "span6">
+<h4>Related Sites:</h4>
+<div class = "span3">
+<div id="footer2">   
+<?php print render($page['footer2']); ?>
+</div>  
+</div>  
+</div>											
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-bottom footerbg">
+<div class="container address1 footerbg">
+<h4>Tipperary County Council</h4><hr />
+<div class="row fluid">
+<div class="span2 directions">
+<img src="/sites/default/files/img/directions.png"></div>
+<div class="span4">
+<div class="span12">
+County Hall, Clonmel | County Hall, Nenagh
+</div> 
+<div class="span12">
+Telephone (office hours): 067 44500  
+</div> 
+<div class="span12">
+Out of Hours Emergency Number: 1890 923 948
+</div> 
+<div class="span12">
+Email: info@tipperarycoco.ie
+</div> 
+</div> 
+<div class="span12">
+<a href="#">Translate: English/Irish</a>
+<a href="#">Accessibility: Browse Aloud</a>
+<a href="#">Disclaimer</a>
+<a href="#">Webmail & Extranet</a>
+</div>
+<div class="span3">
+<div class="input-append pull-right">  <input id="appendedInputButton" placeholder="Languages" type="text">  <button class="btn" type="button"><span class="caret"></button></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+

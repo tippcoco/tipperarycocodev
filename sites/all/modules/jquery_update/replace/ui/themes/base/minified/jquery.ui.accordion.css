@@ -37,3 +37,11 @@
 	border-top: 0;
 	overflow: auto;
 }
+
+.services.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+	background-color: #555;
+}
