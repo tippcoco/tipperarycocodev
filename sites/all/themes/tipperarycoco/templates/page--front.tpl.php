@@ -119,8 +119,9 @@
 <div class ="container footerall"> 
 <div class="row-fluid span12" style="margin-left:0px; margin-bottom:15px">
 <div class="span6">
+<div class="span12">
 <h4>Services:</h4>
-<div class = "span3"> 
+<div class = "span4"> 
 <div id="footer1">   
 <?php print render($page['footer1']); ?>
 </div>  
@@ -132,24 +133,25 @@
 </div> 
 <div class = "span3">     
 <div id="footer2">   
-<?php print render($page['footer2']); ?>
+<?php print render($page['footer3']); ?>
+</div>  
 </div>  
 </div>  
 </div>
 <div class = "span6">
 <div class = "span6">
 <h4>Follow Us:</h4>
-<div class = "span3">
+<div class = "span6">
 <div id="footer2">   
-<?php print render($page['footer2']); ?>
+<?php print render($page['footer4']); ?>
 </div>  
 </div>  
 </div>
 <div class = "span6">
 <h4>Related Sites:</h4>
-<div class = "span3">
+<div class = "span10">
 <div id="footer2">   
-<?php print render($page['footer2']); ?>
+<?php print render($page['footer5']); ?>
 </div>  
 </div>  
 </div>											
@@ -178,12 +180,11 @@ Out of Hours Emergency Number: 1890 923 948
 Email: info@tipperarycoco.ie
 </div> 
 </div> 
-<div class="span12">
+<div class="span3">
 <a href="#">Translate: English/Irish</a>
 <a href="#">Accessibility: Browse Aloud</a>
 <a href="#">Disclaimer</a>
-<a href="#">Webmail & Extranet</a>
-</div>
+<a href="#">Webmail & Extranet</a></div>
 <div class="span3">
 <div class="input-append pull-right">  <input id="appendedInputButton" placeholder="Languages" type="text">  <button class="btn" type="button"><span class="caret"></button></div>
 </div>

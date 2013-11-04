@@ -70,7 +70,7 @@
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>  
 
-	 <div class="span8">
+	 <div class="span8" id="pagebody">
 	 
     <section>
 	  <?php if (!empty($page['highlighted'])): ?>
@@ -118,8 +118,9 @@
 <div class ="container footerall"> 
 <div class="row-fluid span12" style="margin-left:0px; margin-bottom:15px">
 <div class="span6">
+<div class="span12">
 <h4>Services:</h4>
-<div class = "span3"> 
+<div class = "span4"> 
 <div id="footer1">   
 <?php print render($page['footer1']); ?>
 </div>  
@@ -131,24 +132,25 @@
 </div> 
 <div class = "span3">     
 <div id="footer2">   
-<?php print render($page['footer2']); ?>
+<?php print render($page['footer3']); ?>
+</div>  
 </div>  
 </div>  
 </div>
 <div class = "span6">
 <div class = "span6">
 <h4>Follow Us:</h4>
-<div class = "span3">
+<div class = "span6">
 <div id="footer2">   
-<?php print render($page['footer2']); ?>
+<?php print render($page['footer4']); ?>
 </div>  
 </div>  
 </div>
 <div class = "span6">
 <h4>Related Sites:</h4>
-<div class = "span3">
+<div class = "span10">
 <div id="footer2">   
-<?php print render($page['footer2']); ?>
+<?php print render($page['footer5']); ?>
 </div>  
 </div>  
 </div>											
