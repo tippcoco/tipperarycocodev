@@ -23,6 +23,50 @@ background: #f0f0f0;
 padding-top: 0px;
 }
 
+#block-views-i-want-to-block{
+background: #e5e5e5;
+margin-top: 0px;}
+
+
+#block-views-i-want-to-block h2.block-title{
+margin-top: 0px;
+background-color: #808080;}
+#block-views-i-want-to-block h2.block-title1{
+margin-top: 0px;
+background-color: #434344;
+color: #fff;
+font-weight: normal;
+text-transform: capitalize;
+padding: 3px;
+}
+
+.spacer {
+padding-top: 13px;}
+li.want-items{
+list-style-image:url('http://www.tipperarycocostage.ie/sites/default/files/styles/large/public/img/doublearrow.png');
+}
+li.want-items a{
+color: #2c2c2c;
+font-weight: normal;
+}
+li.want-items a:hover{
+color: #000;
+font-weight: normal;
+}
+.csd {
+background-color: #B8CD34;
+position: relative; bottom: 0; left: 10;
+margin-top: 8px;
+}
+.csdlink a {
+color: #2c2c2c;}
+.csdlink a:hover {
+color: #2c2c2c;}
+.csdborder{
+border-right: 1px solid #434344;}
+.view-footer{
+padding: 5px 0px 5px 10px;}
+
 .breadcrumb { 
 background-color: #434344;
 padding: 8px 15px;
