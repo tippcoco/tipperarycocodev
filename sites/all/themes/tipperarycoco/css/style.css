@@ -40,6 +40,31 @@ text-transform: capitalize;
 padding: 3px;
 }
 
+
+.field-type-image .field-item {
+display: inline-block;
+padding: 5px;
+}
+
+.group-maps {
+background: #f2f2f2;
+margin-bottom: 15px;
+}
+
+.focus {
+padding: 5px;
+background: #f2f2f2;
+font-style: italic;}
+.field-name-field-area {
+background: #f2f2f2;
+padding-left: 3px;
+}
+.field-name-field-area .field-item {
+padding-left: 18px;
+background-image: url('http://www.tipperarycocostage.ie/sites/default/files/styles/large/public/img/dataicon.png');
+background-repeat: no-repeat;
+background-position: center left;}
+
 .spacer {
 padding-top: 13px;}
 li.want-items{
@@ -438,11 +463,12 @@ background-image: url("http://www.tipperarycocostage.ie/sites/default/files/styl
 padding: 15px;}
 
 .mapitem {
-background-color:rgba(255,255,255,0.8);
 background-image: url("http://www.tipperarycocostage.ie/sites/default/files/styles/large/public/img/mapicon.png");
 background-repeat: no-repeat;
 background-position: center left;
 border-left: 4px solid transparent;
+background-color: #E5E5E5;
+color: #000000;
 }
 .mapitem a{
 color:#000;
@@ -959,6 +985,20 @@ span.ctype-Event {
 padding-left: 24px;}
 
 a.services { color: #000000/*{fcDefault}*/; text-decoration: none; }
+
+.mapblock {
+background-color: #E5E5E5;
+color: #000000;
+padding-left: 20px;
+}
+
+.mapblock a {
+color: #000000;
+text-decoration: none;
+font-weight: normal;
+}
+
+
 
 
 
