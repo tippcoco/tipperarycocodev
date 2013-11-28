@@ -50,7 +50,19 @@ padding: 5px;
 background: #f2f2f2;
 margin-bottom: 15px;
 }
-
+.view-grouping-header {
+color: #434344;
+font-weight: bold;}
+.view-grouping-content .view-grouping .view-grouping-header {
+color: #9E9E8A;
+padding-left: 10px;
+font-weight: normal;}
+.views-exposed-widget .description {
+background-color: white;
+border-bottom: 0px;
+margin-top: 0px;
+padding: 0px;
+font-size: 12px;}
 .focus {
 padding: 5px;
 background: #f2f2f2;
@@ -403,6 +415,18 @@ background-image: url('http://www.tipperarycocostage.ie/sites/default/files/styl
 background-repeat: no-repeat;
 background-position: top left;
 }
+.bulletpt a {
+color: #000;
+text-decoration: none;
+font-weight: normal;}
+
+.bulletpt a:hover {
+color: #005580;
+text-decoration: none;
+font-weight: normal;}
+
+.view-devplans{
+background: #F2F2F2;}
 
 li.bullet {
 line-height: 20px;
