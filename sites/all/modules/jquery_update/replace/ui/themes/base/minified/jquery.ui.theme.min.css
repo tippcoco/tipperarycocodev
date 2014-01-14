@@ -28,8 +28,8 @@
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #fff/*{fcDefault}*/; text-decoration: none; }
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border-bottom: 1px solid #000;/*{borderColorHover}*/; background: #808080/*{bgColorHover}*/ url(images/ui-bg_glass_75_dadada_1x4001.png)/*{bgImgUrlHover}*/ 50%/*{bgHoverXPos}*/ 50%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #fff/*{fcHover}*/; }
 .ui-state-hover a, .ui-state-hover a:hover { color: #fff/*{fcHover}*/; text-decoration: none; }
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {border-bottom: 1px solid #434344; background: #B8CD34; font-weight: normal/*{fwDefault}*/; color: #fff/*{fcActive}*/; }
-.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #fff/*{fcActive}*/; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {border-bottom: 1px solid #434344; background: #FDC10F; font-weight: normal/*{fwDefault}*/; color: #fff/*{fcActive}*/; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #353436/*{fcActive}*/; text-decoration: none; }
 .ui-widget :active { outline: none; }
 
 /* Interaction Cues
